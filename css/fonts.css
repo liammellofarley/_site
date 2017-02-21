@@ -1,0 +1,30 @@
+@font-face {
+    font-family: librefranklin;
+    src: url(/fonts/librefranklin/LibreFranklin-ExtraLight.ttf);
+    font-weight: 200;
+}
+@font-face {
+    font-family: librefranklin;
+    src: url(/fonts/librefranklin/LibreFranklin-Regular.ttf);
+    font-weight: normal;
+}
+@font-face {
+    font-family: rubik;
+    src: url(/fonts/rubik/Rubik-Light.ttf);
+    font-weight: 300;
+}
+@font-face {
+    font-family: rubik;
+    src: url(/fonts/rubik/Rubik-Regular.ttf);
+    font-weight: normal;
+}
+@font-face {
+    font-family: montserrat;
+    src: url(/fonts/montserrat/Montserrat-Regular.ttf);
+    font-weight: normal;
+}
+@font-face {
+    font-family: montserrat;
+    src: url(/fonts/montserrat/Montserrat-Light.ttf);
+    font-weight: 300;
+}
