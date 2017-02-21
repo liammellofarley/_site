@@ -2,7 +2,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  background: url(https://67.media.tumblr.com/f61a605a462a27b59cc8429f2e4f643a/tumblr_ofiz89YhbR1t1wctso1_1280.jpg) no-repeat center center fixed;
+  background: url(/images/about-background.jpg) no-repeat center center fixed;
   -o-background-size: cover;
   background-size: cover;
   -webkit-background-size: cover;
@@ -23,9 +23,9 @@
 #bottom-section {
   position: absolute;
   top: 50%;
-  -webkit-transform: translateY(-60%);
-  -ms-transform: translateY(-60%);
-  transform: translateY(-60%);
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
   background-color: rgba(20, 31, 43, 0.1);
   border-radius: 2px 2px 2px 2px;
   -moz-border-radius: 2px 2px 2px 2px;
@@ -39,9 +39,9 @@
     font-weight: regular;
     color: #f6f7f7;
     font-size: 1.3rem;
-    margin-top: 3rem;
+    margin-top: 1rem;
     padding-bottom: 0;
-    margin-bottom: 1vh; }
+    margin-bottom: 1.1vh; }
   #bottom-section p {
     margin-top: 0;
     padding-top: 0.5vh;
@@ -141,7 +141,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  background: url(https://66.media.tumblr.com/7fbe1ce0e34d3e5526971447fc0f9bb2/tumblr_oazyh8yy1O1t1wctso1_1280.jpg) no-repeat center center fixed;
+  background: url(/images/contact-background.jpg) no-repeat center center fixed;
   -o-background-size: cover;
   background-size: cover;
   -webkit-background-size: cover;
@@ -459,28 +459,28 @@ nav {
   font-size: 0; }
 
 #retouching1 .portfolio-text {
-  background: url(https://68.media.tumblr.com/d7249437c200d9001f848dd1bcae13a0/tumblr_ofjeeiRjrf1t1wctso1_1280.jpg) no-repeat center center;
+  background: url(/images/portrait1header.jpg) no-repeat center center;
   -o-background-size: cover;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover; }
 
 #portraits1 .portfolio-text {
-  background: url(https://66.media.tumblr.com/a18a91a2f698925445bf63f6ad486dc0/tumblr_ofj6968Q331t1wctso6_1280.jpg) no-repeat center center;
+  background: url(/images/portrait2header.jpg) no-repeat center center;
   -o-background-size: cover;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover; }
 
 #lifestyle .portfolio-text {
-  background: url(https://66.media.tumblr.com/95db0d912f86060699a987b105db195d/tumblr_ofjfcgfrwp1t1wctso2_1280.jpg) no-repeat center center;
+  background: url(/images/lifestyleheader.jpg) no-repeat center center;
   -o-background-size: cover;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover; }
 
 #landscapes .portfolio-text {
-  background: url(https://67.media.tumblr.com/174c90af88e246b61799553bee09807c/tumblr_o9vlvfXEBC1t1wctso4_1280.jpg) no-repeat center center;
+  background: url(/images/landscapeheader.jpg) no-repeat center center;
   -o-background-size: cover;
   background-size: cover;
   -webkit-background-size: cover;
