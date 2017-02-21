@@ -334,6 +334,8 @@ body {
   padding-top: 0;
   width: 100%;
   padding-top: 1.3rem; }
+  #navwrapper a {
+    letter-spacing: 0.4px; }
 
 nav {
   vertical-align: bottom;
@@ -344,8 +346,7 @@ nav {
     text-decoration: none;
     font-size: 1.1rem;
     color: #b2bcbf;
-    font-weight: 600;
-    letter-spacing: 0.4px; }
+    font-weight: 500; }
   nav a:hover {
     color: white; }
 
@@ -396,14 +397,14 @@ nav {
     margin-top: 0;
     padding-top: 0; } }
 .active-nav {
-  font-weight: 400;
+  font-weight: 500;
   color: white;
   padding-bottom: 5px;
   border-bottom: 3px solid #f11568;
   border-radius: 2px; }
 
 #halfopacity {
-  opacity: 0.4; }
+  opacity: 0.6; }
 
 .hoverdarktop {
   background: -moz-linear-gradient(top, #121212 0%, transparent 80%);
