@@ -1,18 +1,13 @@
-#aboutpage {
+.contact-about {
   position: absolute;
   top: 0;
   left: 0;
-  background: url(/images/about-background.jpg) no-repeat center center fixed;
-  -o-background-size: cover;
-  background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
   z-index: 0;
   width: 100vw;
   height: 100vh;
   text-align: center; }
 
-#aboutme-wrapper {
+.contact-about-wrapper {
   position: relative;
   margin: 0 auto;
   margin-top: 7rem;
@@ -20,116 +15,64 @@
   height: 80vh;
   max-width: 30rem; }
 
-#bottom-section {
+.contact-about-section {
   position: absolute;
   top: 50%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-  background-color: rgba(20, 31, 43, 0.1);
+  -webkit-box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.2);
   border-radius: 2px 2px 2px 2px;
   -moz-border-radius: 2px 2px 2px 2px;
   -webkit-border-radius: 2px 2px 2px 2px;
-  text-align: center;
   height: auto;
-  padding-top: 2rem;
-  padding-bottom: 2rem; }
-  #bottom-section h1 {
+  background-color: rgba(20, 31, 43, 0.1); }
+  .contact-about-section h1 {
     text-align: center;
     font-weight: regular;
-    color: #f6f7f7;
     font-size: 1.3rem;
-    margin-top: 1rem;
     padding-bottom: 0;
+    color: white; }
+
+#aboutpage {
+  background: url(/images/about-background.jpg) no-repeat center center fixed;
+  background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover; }
+
+#about-section {
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem; }
+  #about-section h1 {
+    margin-top: 1rem;
     margin-bottom: 1.1vh; }
-  #bottom-section p {
+  #about-section p {
     margin-top: 0;
     padding-top: 0.5vh;
     text-align: left;
     font-weight: normal;
-    color: #f6f7f7;
+    color: #e8e8e8;
+    line-height: 1.61;
+    font-weight: 300;
     margin-left: 4vw;
-    margin-right: 4vw;
-    line-height: 140%;
-    font-weight: 300; }
-  #bottom-section ul {
-    margin: 0;
-    margin-top: 1rem;
-    display: inline-block;
-    max-width: 25rem;
-    list-style-type: none;
-    padding: 0; }
-    #bottom-section ul li {
-      display: inline;
-      float: left;
-      color: #121212;
-      margin-left: 0.3rem;
-      margin-right: 0.3rem;
-      -webkit-transition: all 0.14s ease-in-out;
-      -moz-transition: all 0.14s ease-in-out;
-      -ms-transition: all 0.14s ease-in-out;
-      -o-transition: all 0.14s ease-in-out;
-      transition: all 0.14s ease-in-out; }
-      #bottom-section ul li a {
-        color: inherit; }
-      #bottom-section ul li i {
-        margin-top: 0.18rem; }
-    #bottom-section ul li:hover, #bottom-section ul li:active {
-      -webkit-transform: scale(1.2);
-      -moz-transform: scale(1.2);
-      -ms-transform: scale(1.2);
-      -o-transform: scale(1.2);
-      transform: scale(1.2);
-      text-shadow: 0px 0px 3px #bfbebe; }
-    #bottom-section ul #snapchat {
-      border-radius: 100%;
-      height: 2.7rem;
-      width: 2.7rem; }
-    #bottom-section ul #snapchat:hover {
-      color: #f2d827; }
-    #bottom-section ul #instagram {
-      border-radius: 100%;
-      height: 2.7rem;
-      width: 2.7rem; }
-    #bottom-section ul #instagram:hover {
-      color: #f11568; }
-    #bottom-section ul #facebook {
-      border-radius: 100%;
-      height: 2.7rem;
-      width: 2.7rem; }
-      #bottom-section ul #facebook i {
-        padding-right: 0.1rem; }
-    #bottom-section ul #facebook:hover {
-      color: #3C599F; }
-
-#avatar {
-  top: 1vh;
-  margin: 0;
-  border-radius: 100%;
-  width: 12vh;
-  height: 12vh;
-  padding-bottom: 0px; }
-
-#avatarwrapper {
-  padding-top: 4vh;
-  padding-bottom: 0vh;
-  display: inline-block; }
+    margin-right: 4vw; }
 
 .tab {
   display: inline-block;
   margin-left: 2rem; }
 
-@media screen and (max-width: 665px) {
-  #aboutme-wrapper {
-    margin-top: 8.3rem; } }
 @media screen and (max-width: 733px) {
   #aboutme-wrapper {
     width: 100%;
     max-width: 100%;
-    margin-top: 6rem;
+    margin-top: 9rem;
     height: 100vh; }
 
-  #bottom-section {
+  #about-section {
     padding-top: 0;
     height: 100vh;
     top: 0;
@@ -137,54 +80,34 @@
     -ms-transform: translateY(0);
     transform: translateY(0);
     background-color: transparent; } }
+@media screen and (max-width: 500px) {
+  #aboutme-wrapper {
+    margin-top: 10rem; }
+    #aboutme-wrapper p {
+      margin-left: 6vw;
+      margin-right: 6vw; } }
 #contactpage {
-  position: absolute;
-  top: 0;
-  left: 0;
   background: url(/images/contact-background.jpg) no-repeat center center fixed;
-  -o-background-size: cover;
   background-size: cover;
+  -o-background-size: cover;
   -webkit-background-size: cover;
-  -moz-background-size: cover;
-  z-index: 0;
-  width: 100vw;
-  height: 100vh;
-  text-align: center; }
+  -moz-background-size: cover; }
 
-#contact-wrapper {
-  position: relative;
-  margin: 0 auto;
-  margin-top: 7rem;
-  overflow-y: hidden;
-  height: 80vh;
-  max-width: 30rem; }
-
-#contact {
+#contact-section {
   height: auto;
   width: 100%;
-  background-color: rgba(20, 31, 43, 0.1);
-  position: absolute;
-  top: 50%;
-  -webkit-transform: translateY(-60%);
-  -ms-transform: translateY(-60%);
-  transform: translateY(-60%);
-  -webkit-box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.2);
-  -moz-box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.2);
-  box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.2);
-  border-radius: 2px 2px 2px 2px;
-  -moz-border-radius: 2px 2px 2px 2px;
-  -webkit-border-radius: 2px 2px 2px 2px;
-  text-align: center; }
-  #contact ul {
+  background-color: rgba(20, 31, 43, 0.1); }
+  #contact-section ul {
     list-style-type: none;
     padding: 0;
+    margin-top: 0.3rem;
     padding-top: 0.2rem;
     padding-bottom: 8vh; }
-    #contact ul li {
+    #contact-section ul li {
       color: #e8e8e8;
       font-weight: 300;
       margin-top: 20px; }
-      #contact ul li a {
+      #contact-section ul li a {
         color: inherit;
         text-decoration: none;
         box-shadow: inset 0 -4px 0 rgba(241, 20, 104, 0.9);
@@ -193,47 +116,33 @@
         -ms-transition: background-color 0.2s ease;
         -o-transition: background-color 0.2s ease;
         transition: background-color 0.2s ease; }
-      #contact ul li a:hover {
+      #contact-section ul li a:hover {
         background-color: rgba(241, 20, 104, 0.9); }
-  #contact h1 {
+  #contact-section h1 {
     display: inline-block;
-    text-align: center;
-    font-weight: regular;
-    color: white;
     max-width: 20rem;
-    font-size: 1.3rem;
     margin-top: 3rem;
-    padding-bottom: 0; }
-  #contact p {
-    margin-top: 0;
-    padding-top: 0.5vh;
-    text-align: left;
-    font-weight: normal;
-    color: #f6f7f7;
-    margin-left: 4vw;
-    margin-right: 4vw;
-    line-height: 140%;
-    font-weight: 300; }
-
-.tab {
-  display: inline-block;
-  margin-left: 2rem; }
+    margin-bottom: 0; }
 
 @media screen and (max-height: 390px) {
   #contact-wrapper p {
     font-size: 0.8rem; } }
-@media screen and (max-width: 485px) {
+@media screen and (max-width: 500px) {
   #contact-wrapper {
-    margin-top: 8.3rem;
+    margin-top: 10rem;
     height: 80vh; } }
 @media screen and (max-width: 733px) {
   #contact-wrapper {
     width: 100%;
     max-width: 100%;
-    margin-top: 6rem;
+    margin-top: 9rem;
     height: 100vh; }
+    #contact-wrapper h1 {
+      margin-bottom: 0; }
+    #contact-wrapper ul {
+      margin-top: 0; }
 
-  #contact {
+  #contact-section {
     height: 100vh;
     top: 0;
     -webkit-transform: translateY(0);
@@ -366,9 +275,9 @@ nav {
   color: #b2bcbf;
   white-space: nowrap; }
 
-@media screen and (max-width: 330px) {
+@media screen and (max-width: 370px) {
   #navwrapper li a {
-    font-size: 0.8rem; } }
+    font-size: 4vw; } }
 @media screen and (max-width: 500px) {
   #navwrapper li {
     padding-left: 0.3rem;
@@ -378,7 +287,7 @@ nav {
     margin-right: 0.1vw;
     margin-bottom: 0.5rem;
     padding-bottom: 0.8rem; } }
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 920px) {
   #navwrapper {
     text-align: center; }
 
@@ -431,9 +340,6 @@ nav {
   z-index: 50;
   opacity: 0.3; }
 
-#portfoliopage {
-  background-color: #121212; }
-
 #scrollerwrapper {
   width: 100vw;
   height: 100%; }
@@ -444,19 +350,16 @@ nav {
   top: 0;
   left: 0;
   width: 100vw;
-  background: #121212;
   height: 110vh;
   overflow-x: scroll;
   overflow-y: hidden;
   text-align: left;
-  background-color: transparent;
   cursor: ew-resize; }
 
 .retouchingwrapper {
   height: 104vh;
   white-space: nowrap;
   bottom: 0;
-  background: #121212;
   font-size: 0; }
 
 #retouching1 .portfolio-text {
@@ -632,16 +535,14 @@ footer {
     overflow-y: scroll;
     width: 105vw;
     height: 100vh; } }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 455px) {
   #portfolio-navbar ul li {
     padding-left: 0.1rem;
     padding-right: 0.1rem; }
     #portfolio-navbar ul li a {
       padding-left: 0.3rem;
-      padding-right: 0.3rem; } }
-@media screen and (max-width: 390px) {
-  #portfolio-navbar ul li a {
-    font-size: 0.8rem; } }
+      padding-right: 0.3rem;
+      font-size: 3.76471vw; } }
 @media screen and (max-height: 700px) {
   .portfolio-text div h1 {
     font-size: 2rem; }
