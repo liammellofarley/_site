@@ -520,7 +520,8 @@ footer {
 
 @media screen and (max-width: 800px) {
   #portfoliopage {
-    height: auto; }
+    height: auto;
+    position: relative; }
 
   .retouchingwrapper {
     height: auto;
