@@ -69,8 +69,7 @@
   #aboutme-wrapper {
     width: 100%;
     max-width: 100%;
-    margin-top: 9rem;
-    height: 80vh; }
+    margin-top: 9rem; }
 
   #about-section {
     padding-top: 0;
@@ -84,7 +83,9 @@
       margin-top: 2rem; } }
 @media screen and (max-width: 500px) {
   #aboutme-wrapper {
-    margin-top: 10rem; }
+    height: 66vh;
+    margin-top: 10rem;
+    overflow-y: hidden; }
     #aboutme-wrapper p {
       margin-left: 6vw;
       margin-right: 6vw; } }
@@ -126,13 +127,6 @@
     margin-top: 3rem;
     margin-bottom: 0; }
 
-@media screen and (max-height: 390px) {
-  #contact-wrapper p {
-    font-size: 0.8rem; } }
-@media screen and (max-width: 500px) {
-  #contact-wrapper {
-    margin-top: 10rem;
-    height: 80vh; } }
 @media screen and (max-width: 800px) {
   #contact-wrapper {
     width: 100%;
@@ -152,6 +146,14 @@
     -ms-transform: translateY(0);
     transform: translateY(0);
     background-color: transparent; } }
+@media screen and (max-height: 390px) {
+  #contact-wrapper p {
+    font-size: 0.8rem; } }
+@media screen and (max-width: 500px) {
+  #contact-wrapper {
+    height: 66vh;
+    margin-top: 10rem;
+    overflow-y: hidden; } }
 body {
   margin: 0;
   overflow: hidden;
@@ -557,22 +559,35 @@ footer {
     position: relative; }
 
   .hidden {
-    display: none; } }
-@media screen and (max-width: 455px) {
-  #portfolio-navbar {
-    top: 92vh; }
-    #portfolio-navbar ul li {
-      padding-left: 0.1rem;
-      padding-right: 0.1rem; }
-      #portfolio-navbar ul li a {
-        padding-left: 0.3rem;
-        padding-right: 0.3rem;
-        font-size: 3.76471vw; } }
+    display: none; }
+
+  #hoverdarkbottom {
+    position: fixed; } }
 @media screen and (max-height: 700px) {
   .portfolio-text div h1 {
     font-size: 2rem; }
   .portfolio-text div p {
     font-size: 1rem; } }
+@media screen and (max-width: 455px) {
+  #portfolio-navbar {
+    text-align: right;
+    top: 64%;
+    right: 4vw;
+    z-index: 9999; }
+    #portfolio-navbar ul li {
+      padding-left: 0.1rem;
+      padding-right: 0.1rem;
+      display: block; }
+      #portfolio-navbar ul li a {
+        padding-left: 0.3rem;
+        padding-right: 0.3rem;
+        font-size: 3.76471vw; }
+      #portfolio-navbar ul li .active-portfolio {
+        border-left: 0px #f11568 solid;
+        border-right: 0px #f11568 solid;
+        padding-bottom: 2px;
+        border-bottom: 3px solid #f11568;
+        border-radius: 2px; } }
 #slide1 {
   position: absolute;
   width: 100vw;
