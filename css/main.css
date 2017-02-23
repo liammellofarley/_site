@@ -538,13 +538,15 @@ footer {
     width: 105vw;
     height: 100vh; } }
 @media screen and (max-width: 455px) {
-  #portfolio-navbar ul li {
-    padding-left: 0.1rem;
-    padding-right: 0.1rem; }
-    #portfolio-navbar ul li a {
-      padding-left: 0.3rem;
-      padding-right: 0.3rem;
-      font-size: 3.76471vw; } }
+  #portfolio-navbar {
+    top: 82vh; }
+    #portfolio-navbar ul li {
+      padding-left: 0.1rem;
+      padding-right: 0.1rem; }
+      #portfolio-navbar ul li a {
+        padding-left: 0.3rem;
+        padding-right: 0.3rem;
+        font-size: 3.76471vw; } }
 @media screen and (max-height: 700px) {
   .portfolio-text div h1 {
     font-size: 2rem; }
