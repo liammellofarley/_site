@@ -658,13 +658,29 @@ footer {
 
 @media screen and (max-width: 800px) {
   #slide1 {
-    background: url(/generated/retouching/luke1-779by974-6b064e.jpg) no-repeat center center fixed; }
+    background: url(/generated/retouching/luke1-779by974-6b064e.jpg) no-repeat center center fixed;
+    -o-background-size: cover;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover; }
 
   #slide2 {
-    background: url(/generated/retouching/eve1-600by900-55e2f2.jpg) no-repeat center center fixed; }
+    background: url(eve1-1280by1920-55e2f2.jpg) no-repeat center center fixed;
+    -o-background-size: cover;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover; }
 
   #slide3 {
-    background: url(/generated/landscapes/berk1-600by900-138af2.jpg) no-repeat center center fixed; }
+    background: url(/generated/landscapes/berk1-1280by1920-138af2.jpg) no-repeat center center fixed;
+    -o-background-size: cover;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover; }
 
   #slide4 {
-    background: url(/generated/lifestyle/hike3-600by900-4b0931.jpg) no-repeat center center fixed; } }
+    background: url(/generated/lifestyle/hike3-1280by1920-4b0931.jpg) no-repeat center center fixed;
+    -o-background-size: cover;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover; } }
