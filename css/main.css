@@ -561,8 +561,13 @@ footer {
   .hidden {
     display: none; }
 
-  .hoverdarkbottom {
+  #hoverdarkbottom {
     position: fixed; } }
+@media screen and (max-height: 700px) {
+  .portfolio-text div h1 {
+    font-size: 2rem; }
+  .portfolio-text div p {
+    font-size: 1rem; } }
 @media screen and (max-width: 455px) {
   #portfolio-navbar {
     text-align: center;
