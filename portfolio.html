@@ -46,20 +46,21 @@
               </ul>
           </nav>
       </div>
-      <div id="portfoliopage" class="fade-in">
+      <div id="portfolio-navbar">
+  <nav>
+    <ul>
+      <li><a id="retouching1-nav" onclick="portfolioNavigate('retouching1')" class="active-portfolio" href="#">Portraits I</a></li>
+      <li><a id="portraits1-nav" onclick="portfolioNavigate('portraits1')" href="#">Portraits II</a></li>
+      <li><a id="lifestyle-nav" onclick="portfolioNavigate('lifestyle')" href="#">Lifestyle</a></li>
+      <li><a id="landscapes-nav" onclick="portfolioNavigate('landscapes')" href="#">Landscapes</a></li>
+    </ul>
+</div>
+<div id="portfoliopage" class="fade-in">
     <div class="hoverdarkbottom">
     </div>
     <div class="hoverdarktop"  id="halfopacity">
     </div>
-    <div id="portfolio-navbar">
-      <nav>
-        <ul>
-          <li><a id="retouching1-nav" onclick="portfolioNavigate('retouching1')" class="active-portfolio" href="#">Portraits I</a></li>
-          <li><a id="portraits1-nav" onclick="portfolioNavigate('portraits1')" href="#">Portraits II</a></li>
-          <li><a id="lifestyle-nav" onclick="portfolioNavigate('lifestyle')" href="#">Lifestyle</a></li>
-          <li><a id="landscapes-nav" onclick="portfolioNavigate('landscapes')" href="#">Landscapes</a></li>
-        </ul>
-    </div>
+
     <div id="scrollerwrapper">
         <!-- 1st Scroll start -->
         <div class="dragscroll retouchingscroller visible" id="retouching1">
