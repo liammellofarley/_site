@@ -151,11 +151,13 @@
     background-color: transparent; } }
 body {
   margin: 0;
-  overflow: hidden; }
+  overflow: hidden;
+  height: 100%; }
 
 #main_body {
   width: 100vw;
   height: 100vh;
+  max-height: 100%;
   font-family: "montserrat", sans-serif;
   font-weight: 400;
   text-align: left;
