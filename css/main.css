@@ -570,24 +570,16 @@ footer {
     font-size: 1rem; } }
 @media screen and (max-width: 455px) {
   #portfolio-navbar {
-    text-align: right;
-    top: 64%;
-    right: 4vw;
-    z-index: 9999; }
+    text-align: center;
+    top: 92%;
+    z-index: 100; }
     #portfolio-navbar ul li {
       padding-left: 0.1rem;
       padding-right: 0.1rem;
-      display: block; }
-      #portfolio-navbar ul li a {
-        padding-left: 0.3rem;
-        padding-right: 0.3rem;
-        font-size: 3.76471vw; }
-      #portfolio-navbar ul li .active-portfolio {
-        border-left: 0px #f11568 solid;
-        border-right: 0px #f11568 solid;
-        padding-bottom: 2px;
-        border-bottom: 3px solid #f11568;
-        border-radius: 2px; } }
+      display: inline a;
+        display-padding-left: 0.3rem;
+        display-padding-right: 0.3rem;
+        display-font-size: 3.76471vw; } }
 #slide1 {
   position: absolute;
   width: 100vw;
