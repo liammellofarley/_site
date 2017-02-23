@@ -65,12 +65,12 @@
   display: inline-block;
   margin-left: 2rem; }
 
-@media screen and (max-width: 733px) {
+@media screen and (max-width: 800px) {
   #aboutme-wrapper {
     width: 100%;
     max-width: 100%;
     margin-top: 9rem;
-    height: 100vh; }
+    height: 80vh; }
 
   #about-section {
     padding-top: 0;
@@ -79,7 +79,9 @@
     -webkit-transform: translateY(0);
     -ms-transform: translateY(0);
     transform: translateY(0);
-    background-color: transparent; } }
+    background-color: transparent; }
+    #about-section h1 {
+      margin-top: 2rem; } }
 @media screen and (max-width: 500px) {
   #aboutme-wrapper {
     margin-top: 10rem; }
@@ -131,14 +133,15 @@
   #contact-wrapper {
     margin-top: 10rem;
     height: 80vh; } }
-@media screen and (max-width: 733px) {
+@media screen and (max-width: 800px) {
   #contact-wrapper {
     width: 100%;
     max-width: 100%;
     margin-top: 9rem;
-    height: 100vh; }
+    height: 80vh; }
     #contact-wrapper h1 {
-      margin-bottom: 0; }
+      margin-bottom: 0;
+      margin-top: 2rem; }
     #contact-wrapper ul {
       margin-top: 0; }
 
@@ -206,6 +209,12 @@ body {
 
 /* close */
 /* ABOUT PAGE start */
+@media screen and (max-width: 800px) {
+  body {
+    overflow-y: scroll; }
+
+  #main_body {
+    height: auto; } }
 @keyframes fadeIn {
   0% {
     opacity: 0; }
@@ -510,15 +519,22 @@ footer {
     font-size: 0; }
 
 @media screen and (max-width: 800px) {
+  #portfoliopage {
+    height: auto; }
+
   .retouchingwrapper {
     height: auto;
     white-space: normal;
     width: 100vw;
     font-size: 0; }
 
+  #portfolio-navbar {
+    position: fixed; }
+
   #scrollerwrapper {
     width: 100%;
-    height: auto; }
+    height: auto;
+    font-size: 1rem; }
 
   .before-after {
     font-size: 18px; }
@@ -532,11 +548,15 @@ footer {
     font-size: 18px; }
 
   .retouchingscroller {
-    cursor: ns-resize;
+    cursor: default;
     overflow-x: hidden;
     overflow-y: scroll;
     width: 105vw;
-    height: 100vh; } }
+    height: auto;
+    position: relative; }
+
+  .hidden {
+    display: none; } }
 @media screen and (max-width: 455px) {
   #portfolio-navbar {
     top: 82vh; }
