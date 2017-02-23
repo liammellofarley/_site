@@ -583,7 +583,7 @@ footer {
 #slide1 {
   position: absolute;
   width: 100vw;
-  height: 100%;
+  height: 100vh;
   background: url(http://static.tumblr.com/hlwpam6/salo9xf8q/optimized.jpg) no-repeat center center fixed;
   -o-background-size: cover;
   background-size: cover;
@@ -594,7 +594,7 @@ footer {
 #slide2 {
   position: absolute;
   width: 100vw;
-  height: 100%;
+  height: 100vh;
   background: url(http://static.tumblr.com/hlwpam6/eaio9xf8u/optimizedeve.jpg) no-repeat center center fixed;
   -o-background-size: cover;
   background-size: cover;
@@ -605,7 +605,7 @@ footer {
 #slide3 {
   position: absolute;
   width: 100vw;
-  height: 100%;
+  height: 100vh;
   background: url(http://static.tumblr.com/hlwpam6/SFao9xf8w/optimizedlucas.jpg) no-repeat center center fixed;
   -o-background-size: cover;
   background-size: cover;
@@ -616,7 +616,7 @@ footer {
 #slide4 {
   position: absolute;
   width: 100vw;
-  height: 100%;
+  height: 100vh;
   background: url(http://static.tumblr.com/hlwpam6/SVSo9xf8s/optimizeddale.jpg) no-repeat center center fixed;
   -o-background-size: cover;
   background-size: cover;
