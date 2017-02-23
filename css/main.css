@@ -656,3 +656,16 @@ footer {
 
 #slide4 {
   animation-delay: 15s; }
+
+@media screen and (max-width: 800px) {
+  #slide1 {
+    background: url(/generated/retouching/luke1-779by974-6b064e.jpg) no-repeat center center fixed; }
+
+  #slide2 {
+    background: url(/generated/retouching/eve1-600by900-55e2f2.jpg) no-repeat center center fixed; }
+
+  #slide3 {
+    background: url(/generated/landscapes/berk1-600by900-138af2.jpg) no-repeat center center fixed; }
+
+  #slide4 {
+    background: url(/generated/lifestyle/hike3-600by900-4b0931.jpg) no-repeat center center fixed; } }
