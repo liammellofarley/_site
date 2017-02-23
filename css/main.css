@@ -161,8 +161,7 @@ body {
 
 #main_body {
   width: 100vw;
-  height: 100vh;
-  max-height: 100%;
+  height: 100%;
   font-family: "montserrat", sans-serif;
   font-weight: 400;
   text-align: left;
@@ -584,7 +583,7 @@ footer {
 #slide1 {
   position: absolute;
   width: 100vw;
-  height: 100vh;
+  height: 100%;
   background: url(http://static.tumblr.com/hlwpam6/salo9xf8q/optimized.jpg) no-repeat center center fixed;
   -o-background-size: cover;
   background-size: cover;
@@ -595,7 +594,7 @@ footer {
 #slide2 {
   position: absolute;
   width: 100vw;
-  height: 100vh;
+  height: 100%;
   background: url(http://static.tumblr.com/hlwpam6/eaio9xf8u/optimizedeve.jpg) no-repeat center center fixed;
   -o-background-size: cover;
   background-size: cover;
@@ -606,7 +605,7 @@ footer {
 #slide3 {
   position: absolute;
   width: 100vw;
-  height: 100vh;
+  height: 100%;
   background: url(http://static.tumblr.com/hlwpam6/SFao9xf8w/optimizedlucas.jpg) no-repeat center center fixed;
   -o-background-size: cover;
   background-size: cover;
@@ -617,7 +616,7 @@ footer {
 #slide4 {
   position: absolute;
   width: 100vw;
-  height: 100vh;
+  height: 100%;
   background: url(http://static.tumblr.com/hlwpam6/SVSo9xf8s/optimizeddale.jpg) no-repeat center center fixed;
   -o-background-size: cover;
   background-size: cover;
