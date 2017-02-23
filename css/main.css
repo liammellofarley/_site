@@ -560,7 +560,7 @@ footer {
     display: none; } }
 @media screen and (max-width: 455px) {
   #portfolio-navbar {
-    top: 82vh; }
+    top: 92vh; }
     #portfolio-navbar ul li {
       padding-left: 0.1rem;
       padding-right: 0.1rem; }
